@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int Denis(int rev);
 int main()
 {
 int user,a,rev;
@@ -12,12 +13,13 @@ rev=rev*10+a;
 user=user/10;
 }
 cout<<rev<<endl;
-cout<< "rev^2" Denis(rev) << endl;
+cout<< "rev^2 = " << Denis(rev) << endl;
 return 0;
 }
 
-;
-int Denis(rev) {
+
+
+int Denis(int rev) {
 	return rev*rev;
 }
 
