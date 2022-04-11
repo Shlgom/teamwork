@@ -21,7 +21,7 @@ cout << "rev^4 = "<< Denis(rev)*Denis(rev)<<endl;
 
 int sum = 0;
 //shoh
-for (int i=0; i<size;i++){
+for (int i=0; i<size;i++){ //average number 
 	cout<<"Add number"<<endl;
 	cin>>kek[i];
 }
