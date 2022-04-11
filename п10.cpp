@@ -14,9 +14,11 @@ user=user/10;
 }
 cout<<rev<<endl;
 cout<< "rev^2 = " << Denis(rev) << endl;
-return 0;
+cout << "rev^4 = "<< Denis(rev)*Denis(rev)<<endl;
+ return 0;
 }
 
 int Denis(int rev) {
+	
 	return rev*rev;
 }
