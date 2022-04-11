@@ -15,7 +15,7 @@ user=user/10;
 cout<<rev<<endl;
 cout<< "rev^2 = " << Denis(rev) << endl;
 cout << "rev^4 = "<< Denis(rev)*Denis(rev)<<endl;
- return 0;
+ return 0; // changed maks 
 }
 
 int Denis(int rev) {
