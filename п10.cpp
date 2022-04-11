@@ -4,7 +4,9 @@ int Denis(int rev);
 int main()
 {
 int user,a,rev;
-
+int size = 4;
+int kek[4];
+int b = 0;
 cin>>user;
 
 while(user>0){
@@ -15,21 +17,22 @@ user=user/10;
 cout<<rev<<endl;
 cout<< "rev^2 = " << Denis(rev) << endl;
 cout << "rev^4 = "<< Denis(rev)*Denis(rev)<<endl;
- return 0; // changed maks 
-}
+		 // changed maks 
 
+int sum = 0;
 //shoh
-for (i=0; i<size;i++){
+for (int i=0; i<size;i++){
 	cout<<"Add number"<<endl;
-	cin>>a[size];}
-	
- {
-   sum+=a[i];}
+	cin>>kek[i];
+}
+for (int i=0; i<size;i++){ 
+  
+   sum+=kek[i];
    b=sum/size;
-   {
     cout<<sum<<endl;
   }
-  
+ return 0;
+}
   
 int Denis(int rev) {
 	
